@@ -1,4 +1,4 @@
-#include <fstream>
+#include <fstream> //殴り書きのため後々コードの単純化と可読性の向上を図る
 #include <iostream>
 #include "omikuji.hpp"
 using namespace std;
