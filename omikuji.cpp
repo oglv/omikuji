@@ -1,6 +1,6 @@
-#include <fstream> //殴り書きのため後々コードの単純化と可読性の向上を図る
+#include <fstream> //"C:\Program Files\mingw64\bin\windres.exe"
 #include <iostream>
-#include "omikuji.hpp"
+#include "omikuji-random.hpp"
 using namespace std;
 int main()
 {
@@ -1374,5 +1374,7 @@ int main()
     //書き込み終了
 
     writing_file.close();
+    system(".\\omikuji.txt");
+    system("exit\n");
     return 0;
 }
